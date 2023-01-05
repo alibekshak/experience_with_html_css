@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+body{
+    width: 800px;
+    height: 600px;
+    background-image: url(../source/54cb030bdd64b6aa222ec55d8f99ca24.jpeg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+}
+
+.main_bar{
+    width: 1300px;
+    height: 650px;
+    background-color: burlywood;
+    position: relative;
+    top:110px;
+    left: 60px;
+    transform: scale(0.9);
+    border-radius: 20px;
+    background: linear-gradient(42deg, rgba(204, 225, 197, 0.159), rgba(50, 83, 124, 0.311));
+    transition: 1s transform, 1.5s box-shadow;
+    overflow: auto;
+}
+
+.main_bar:hover{
+    box-shadow: 1px 2px 3px 5px rgba(197, 170, 170, 0.736);
+    transform: scale(1.0);
+
+}
+
+.profile{
+    background-color: rgba(135, 135, 217, 0.229);
+    width: 300px;
+    height: 1100px;
+    position: absolute;
+    text-align: center;
+
+}
+
+.avatar{
+    transition: 1s;
+    position: relative;
+    width: 220px;
+    height: 220px;
+    position: relative;
+    background-size: 220;
+    top: 30px;
+    transform: scale(1);
+    border-radius: 50%
+    
+
+}
+
+.avatar:hover{
+    border-radius: 30px;
+    transform: scale(1.0);
+
+}
+
+.username{
+    color: rgb(5, 1, 1);
+    position: relative;
+    transition: 2s;
+    animation: name 1s ease-in-out infinite;
+    margin: 30px;
+    font-family: 'Sevillana', cursive;
+    font-size: 35px
+    
+
+}
+.username:hover{
+    transform: scale(0.7);
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    margin: 0;
+    background:rgba(62, 123, 245, 0);
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(46, 126, 217, 0.556);
+    border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgba(239, 148, 68, 0.58);
+}
+::-webkit-scrollbar-track:hover{
+    background: rgba(255, 108, 108, 0);
+}
+
+/* Здесь стиль проектов*/ 
+
+.riki_img{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 15px;
+}
+
+
+.post_main{
+    position: relative;
+    height: 1100px;
+    width: 960px;
+    left: 300px;
+    background-color: rgba(147, 175, 226, 0.069);
+    text-align: center;
+}
+
+.riki_title{
+    margin:  0%;
+    font-size: 30px;
+    font-family: 'Sevillana', cursive;
+    top: 15px;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+.riki_text{
+    position: relative;
+    top: 15px;
+    margin: 0%;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.weather_img{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: 40px;
+}
+
+
+.weather_title{
+    margin:  0%;
+    font-size: 30px;
+    font-family: 'Sevillana', cursive;
+    top: 40px;
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+.weather_text{
+    position: relative;
+    top: 35px;
+    margin: 0%;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
